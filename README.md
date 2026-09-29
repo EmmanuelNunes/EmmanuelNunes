@@ -45,8 +45,10 @@
 | Projeto | Descrição | Tecnologias | Link |
 | :--- | :--- | :--- | :---: |
 | 🎙️ **FastWhisper Web Studio** | Estúdio web de alta performance para transcrição automática de áudio (YouTube, podcasts, arquivos locais, microfone) para **.docx**, **.md** e **.txt**, além de leitura e narração de PDF em pt-BR com IA neural. | `faster-whisper` `Gradio` `yt-dlp` `edge-tts` `python-docx` | [**Acessar**](https://github.com/EmmanuelNunes/fastwhisper-web-studio) |
-| 🤖 **SECOMP - IA** | Materiais, workshops e arquiteturas de agentes autônomos e inteligência artificial aplicada. | `Python` `AI Agents` `LLMs` | [**Acessar**](https://github.com/EmmanuelNunes/SECOMP---IA) |
-| 🔬 **Ecossistema SciLaunch** | Soluções e pesquisas voltadas para lançamento, instrumentação e inovação tecnológica. | `Python` `Architecture` `Research` | [**Acessar**](https://github.com/EmmanuelNunes/Ecossistema-SciLaunch-V3) |
+| 🤖 **SECOMP - IA** | Materiais, workshops e arquiteturas de agentes autônomos, RAG vs. CAG vs. MAG e laboratórios práticos. | `Python` `Jupyter` `FastAPI` `ChromaDB` `Agentes` | [**Acessar**](https://github.com/EmmanuelNunes/SECOMP---IA) |
+| 🔬 **Ecossistema SciLaunch** | Motor de inteligência científica, análise de redes de citação acadêmica via OpenAlex e PageRank de componentes. | `Python` `NetworkX` `OpenAlex API` `PyVis HTML` | [**Acessar**](https://github.com/EmmanuelNunes/Ecossistema-SciLaunch-V3) |
+| 🧠 **TAI-G: Teste em IA** | Instrumento psicométrico validado para mensurar letramento digital e competências em IA Generativa com sync no Google Forms. | `HTML5` `CSS3` `JavaScript` `Google Forms` `GitHub Pages` | [**Acessar**](https://github.com/EmmanuelNunes/Teste-de-Alfabetiza-o-em-IA-Generativa) |
+| 🎁 **Amigo Secreto** | Web App interativo para sorteio festivo de nomes com inserção inteligente em lote, validação de duplicatas e chuva de confetes. | `JavaScript ES6+` `Canvas Confetti` `HTML5/CSS3` | [**Acessar**](https://github.com/EmmanuelNunes/amigosecreto) |
 
 </div>
 
