@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520">
+  <defs>
+    <linearGradient id="ecoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <pattern id="ecoGrid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#202c3c" opacity="0.4"/>
+    </pattern>
+    <style>
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+      
+    </style>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#ecoBg)"/>
+  <rect width="1600" height="520" fill="url(#ecoGrid)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(100, 60)">
+    <text x="0" y="0" class="font-mono" font-size="13" font-weight="700" fill="#e7ba7d" letter-spacing="2">01 / ECOSYSTEM &amp; PROJECTS</text>
+    <text x="0" y="32" class="font-sans" font-size="26" font-weight="800" fill="#ffffff">Sistemas que transformam complexidade em fluxo.</text>
+    <text x="0" y="58" class="font-sans" font-size="15" fill="#8196ae">Da orquestração de subagentes autônomos à cientometria computacional e ferramentas web em produção.</text>
+  </g>
+
+  <!-- 4 Connected System Cards -->
+  <!-- Card 1: Vibe Coding Toolkit -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="325" height="280" rx="10" fill="#0d141e" stroke="#e7ba7d" stroke-width="1.5" class="card-1"/>
+    <circle cx="36" cy="36" r="14" fill="#1b2838"/>
+    <text x="36" y="41" text-anchor="middle" class="font-mono" font-size="12" font-weight="700" fill="#e7ba7d">01</text>
+    <text x="65" y="42" class="font-mono" font-size="12" font-weight="700" fill="#e7ba7d" letter-spacing="1">ORQUESTRAÇÃO</text>
+    <text x="24" y="90" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">vibe-coding-toolkit</text>
+    <text x="24" y="115" class="font-sans" font-size="13" fill="#8fa5be">Toolkit curado de engenharia agêntica com Superpowers, Reversa SDD, Mira D3.js, REA e quality gates.</text>
+    <line x1="24" y1="180" x2="301" y2="180" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="210" class="font-mono" font-size="11" fill="#71869f">STACK: Node, TypeScript, Shell</text>
+    <text x="24" y="235" class="font-mono" font-size="11" fill="#94caa6">STATUS: Produção · Verificado</text>
+  </g>
+
+  <!-- Card 2: SciLaunch V3 -->
+  <g transform="translate(458, 160)">
+    <rect x="0" y="0" width="325" height="280" rx="10" fill="#0d141e" stroke="#85c6bc" stroke-width="1.5" class="card-2"/>
+    <circle cx="36" cy="36" r="14" fill="#172b2b"/>
+    <text x="36" y="41" text-anchor="middle" class="font-mono" font-size="12" font-weight="700" fill="#85c6bc">02</text>
+    <text x="65" y="42" class="font-mono" font-size="12" font-weight="700" fill="#85c6bc" letter-spacing="1">CIÊNCIA &amp; GRAFOS</text>
+    <text x="24" y="90" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">SciLaunch V3</text>
+    <text x="24" y="115" class="font-sans" font-size="13" fill="#8fa5be">Plataforma cientométrica computacional integrada a OpenAlex, PageRank e Career-AI com visualização interativa.</text>
+    <line x1="24" y1="180" x2="301" y2="180" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="210" class="font-mono" font-size="11" fill="#71869f">STACK: Python, Streamlit, NetworkX</text>
+    <text x="24" y="235" class="font-mono" font-size="11" fill="#85c6bc">STATUS: Produção · Cientometria</text>
+  </g>
+
+  <!-- Card 3: FastWhisper Web Studio -->
+  <g transform="translate(816, 160)">
+    <rect x="0" y="0" width="325" height="280" rx="10" fill="#0d141e" stroke="#bba6ce" stroke-width="1.5" class="card-3"/>
+    <circle cx="36" cy="36" r="14" fill="#281e35"/>
+    <text x="36" y="41" text-anchor="middle" class="font-mono" font-size="12" font-weight="700" fill="#bba6ce">03</text>
+    <text x="65" y="42" class="font-mono" font-size="12" font-weight="700" fill="#bba6ce" letter-spacing="1">ÁUDIO &amp; VOZ</text>
+    <text x="24" y="90" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">fastwhisper-studio</text>
+    <text x="24" y="115" class="font-sans" font-size="13" fill="#8fa5be">Transcrição e diarização acelerada com CTranslate2, Gradio e suíte rigorosa de 18 testes automatizados.</text>
+    <line x1="24" y1="180" x2="301" y2="180" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="210" class="font-mono" font-size="11" fill="#71869f">STACK: Python, faster-whisper, Pytest</text>
+    <text x="24" y="235" class="font-mono" font-size="11" fill="#bba6ce">STATUS: 18 Testes Passando</text>
+  </g>
+
+  <!-- Card 4: SECOMP IA & TAI-G -->
+  <g transform="translate(1174, 160)">
+    <rect x="0" y="0" width="325" height="280" rx="10" fill="#0d141e" stroke="#94caa6" stroke-width="1.5" class="card-4"/>
+    <circle cx="36" cy="36" r="14" fill="#1b2a20"/>
+    <text x="36" y="41" text-anchor="middle" class="font-mono" font-size="12" font-weight="700" fill="#94caa6">04</text>
+    <text x="65" y="42" class="font-mono" font-size="12" font-weight="700" fill="#94caa6" letter-spacing="1">EDUCAÇÃO &amp; PSICOMETRIA</text>
+    <text x="24" y="90" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">SECOMP IA / TAI-G</text>
+    <text x="24" y="115" class="font-sans" font-size="13" fill="#8fa5be">Workshop acadêmico de agentes com referências de ponta e instrumento psicométrico de prontidão em IA Generativa.</text>
+    <line x1="24" y1="180" x2="301" y2="180" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="210" class="font-mono" font-size="11" fill="#71869f">STACK: Mira D3, HTML5, Vanilla JS</text>
+    <text x="24" y="235" class="font-mono" font-size="11" fill="#94caa6">STATUS: Produção · Acadêmico</text>
+  </g>
+</svg>

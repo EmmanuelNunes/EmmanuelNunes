@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520">
+  <defs>
+    <linearGradient id="orchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <pattern id="orchGrid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#202c3c" opacity="0.4"/>
+    </pattern>
+    <style>
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+      
+    @keyframes flowLine {
+      from { stroke-dashoffset: 40; }
+      to { stroke-dashoffset: 0; }
+    }
+    .flow-dash { animation: flowLine 2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .flow-dash { animation: none !important; }
+    }
+  
+    </style>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#orchBg)"/>
+  <rect width="1600" height="520" fill="url(#orchGrid)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(100, 60)">
+    <text x="0" y="0" class="font-mono" font-size="13" font-weight="700" fill="#85c6bc" letter-spacing="2">02 / AGENTIC ORCHESTRATION PIPELINE</text>
+    <text x="0" y="32" class="font-sans" font-size="26" font-weight="800" fill="#ffffff">Orquestração multiagente orientada por evidências.</text>
+    <text x="0" y="58" class="font-sans" font-size="15" fill="#8196ae">Pipeline coordenado entre Antigravity, Claude Code e Codex com tarefas isoladas e auditoria cruzada.</text>
+  </g>
+
+  <!-- Flow Diagram -->
+  <!-- Node 1: Intent & Brainstorm -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="280" height="180" rx="10" fill="#0d141e" stroke="#2d4263" stroke-width="1.5"/>
+    <text x="24" y="38" class="font-mono" font-size="11" font-weight="700" fill="#e7ba7d">ETAPA 01</text>
+    <text x="24" y="68" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">Intenção &amp; Superpowers</text>
+    <text x="24" y="96" class="font-sans" font-size="13" fill="#8fa5be">Brainstorming estruturado, entrevista de requisitos e plano fino de execução.</text>
+    <text x="24" y="145" class="font-mono" font-size="11" fill="#71869f">Saída: Spec &amp; Checklist</text>
+  </g>
+
+  <!-- Line 1 to 2 -->
+  <line x1="380" y1="290" x2="480" y2="290" stroke="#e7ba7d" stroke-width="2" stroke-dasharray="6 4" class="flow-dash"/>
+
+  <!-- Node 2: Reversa SDD / Architecture -->
+  <g transform="translate(480, 200)">
+    <rect x="0" y="0" width="280" height="180" rx="10" fill="#0d141e" stroke="#85c6bc" stroke-width="1.5"/>
+    <text x="24" y="38" class="font-mono" font-size="11" font-weight="700" fill="#85c6bc">ETAPA 02</text>
+    <text x="24" y="68" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">Reversa SDD &amp; Fronteiras</text>
+    <text x="24" y="96" class="font-sans" font-size="13" fill="#8fa5be">Mapeamento de software legado, isolamento de escopo e especificação executável.</text>
+    <text x="24" y="145" class="font-mono" font-size="11" fill="#71869f">Saída: SDD &amp; Regras</text>
+  </g>
+
+  <!-- Line 2 to 3 -->
+  <line x1="760" y1="290" x2="860" y2="290" stroke="#85c6bc" stroke-width="2" stroke-dasharray="6 4" class="flow-dash"/>
+
+  <!-- Node 3: Parallel Dispatch -->
+  <g transform="translate(860, 200)">
+    <rect x="0" y="0" width="280" height="180" rx="10" fill="#0d141e" stroke="#bba6ce" stroke-width="1.5"/>
+    <text x="24" y="38" class="font-mono" font-size="11" font-weight="700" fill="#bba6ce">ETAPA 03</text>
+    <text x="24" y="68" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">Despacho de Subagentes</text>
+    <text x="24" y="96" class="font-sans" font-size="13" fill="#8fa5be">Ondas paralelas de subagentes independentes com escopos restritos e limpos.</text>
+    <text x="24" y="145" class="font-mono" font-size="11" fill="#71869f">Execução: Test-First</text>
+  </g>
+
+  <!-- Line 3 to 4 -->
+  <line x1="1140" y1="290" x2="1240" y2="290" stroke="#bba6ce" stroke-width="2" stroke-dasharray="6 4" class="flow-dash"/>
+
+  <!-- Node 4: Quality & Cross-Audit -->
+  <g transform="translate(1240, 200)">
+    <rect x="0" y="0" width="260" height="180" rx="10" fill="#0d141e" stroke="#94caa6" stroke-width="1.5"/>
+    <text x="24" y="38" class="font-mono" font-size="11" font-weight="700" fill="#94caa6">ETAPA 04</text>
+    <text x="24" y="68" class="font-sans" font-size="18" font-weight="800" fill="#ffffff">Quality Gates &amp; Prova</text>
+    <text x="24" y="96" class="font-sans" font-size="13" fill="#8fa5be">Auditoria cruzada entre agentes, linters, teto de 350 linhas e testes reais.</text>
+    <text x="24" y="145" class="font-mono" font-size="11" fill="#71869f">Resultado: 100% Pass</text>
+  </g>
+</svg>

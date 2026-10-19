@@ -1,132 +1,144 @@
-<div align="center">
+**Português (Brasil)** · [English](README.en.md) · [Español](README.es.md)
 
-  <!-- Banner do Perfil -->
-  <img src="assets/profile_banner.svg" alt="Emmanuel Nunes Banner" width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/hero-still.svg">
+  <img src="docs/assets/readme/hero.svg" alt="Emmanuel Nunes Hero" width="1600" height="680">
+</picture>
 
-  <br/><br/>
+# Emmanuel Nunes
 
-  <!-- Badges de Status / Habilidades -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Foco-Inteligência%20Artificial%20&%20Agentes-6366f1?style=for-the-badge&logo=openai&logoColor=white" alt="AI & Agentes" />
-    <img src="https://img.shields.io/badge/Linguagem-Python%20Core-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Core" />
-    <img src="https://img.shields.io/badge/Pesquisa-Engenharia%20de%20Software-0284c7?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Pesquisa" />
-  </p>
+**Arquiteto de Software, Especialista em Sistemas Agênticos de IA e Pesquisador Computacional.**
 
-  <p align="center">
-    <b>Desenvolvedor de Software especializado em Inteligência Artificial, Agentes Autônomos e Soluções de Alta Performance.</b><br/>
-    Explorando as fronteiras entre LLMs, automação de fluxos cognitivos e engenharia de software aplicada.
-  </p>
+Construo sistemas que transformam fluxos complexos em soluções ágeis, elegantes e confiáveis. Minha atuação combina a fronteira da **Engenharia Agêntica** (orquestração coordenada entre Antigravity, Claude Code e Codex, Reversa SDD, Mira D3.js e REA) com o rigor da **pesquisa cientométrica computacional** e o desenvolvimento de produtos em produção.
 
-  <p align="center">
-    <a href="#-sobre-mim">Sobre Mim</a> •
-    <a href="#-projetos-em-destaque">Projetos em Destaque</a> •
-    <a href="#-tecnologias--habilidades">Tecnologias</a> •
-    <a href="#-estatísticas-do-github">Estatísticas</a> •
-    <a href="#-conecte-se-comigo">Contato</a>
-  </p>
-
-</div>
+<p align="center"><a href="#choose-path"><strong>ESCOLHER CAMINHO →</strong></a> &nbsp; · &nbsp; <a href="#ecosystem"><strong>ECOSSISTEMA</strong></a> &nbsp; · &nbsp; <a href="#agentic"><strong>ENGENHARIA AGÊNTICA</strong></a> &nbsp; · &nbsp; <a href="#science"><strong>PESQUISA</strong></a> &nbsp; · &nbsp; <a href="#quality"><strong>QUALIDADE</strong></a> &nbsp; · &nbsp; <a href="#connect"><strong>CONECTAR</strong></a></p>
 
 ---
 
-## 👨‍💻 Sobre Mim
+<a id="choose-path"></a>
+## 00 / Escolha por onde explorar
 
-* 🔭 **Atualmente desenvolvendo:** Aplicações de ponta com modelos de IA (Whisper, Gemini, DeepSeek) e sistemas multiagentes.
-* 💡 **Áreas de interesse:** Inteligência Artificial Generativa, Engenharia de Prompt, Orquestração de Agentes Autônomos, Transcrição e Síntese de Voz.
-* ⚡ **Filosofia:** Criar ferramentas que transformam complexidade técnica em interfaces simples, intuitivas e ultra-eficientes.
-* 🎯 **Objetivo:** Contribuir para projetos open-source e soluções de impacto no ecossistema de software e inteligência artificial.
-
----
-
-## 🚀 Projetos em Destaque
-
-<div align="center">
-
-| Projeto | Descrição | Tecnologias | Link |
-| :--- | :--- | :--- | :---: |
-| 🎙️ **FastWhisper Web Studio** | Estúdio web de alta performance para transcrição automática de áudio (YouTube, podcasts, arquivos locais, microfone) para **.docx**, **.md** e **.txt**, além de leitura e narração de PDF em pt-BR com IA neural. | `faster-whisper` `Gradio` `yt-dlp` `edge-tts` `python-docx` | [**Acessar**](https://github.com/EmmanuelNunes/fastwhisper-web-studio) |
-| 🤖 **SECOMP - IA** | Materiais, workshops e arquiteturas de agentes autônomos, RAG vs. CAG vs. MAG e laboratórios práticos. | `Python` `Jupyter` `FastAPI` `ChromaDB` `Agentes` | [**Acessar**](https://github.com/EmmanuelNunes/SECOMP---IA) |
-| 🔬 **Ecossistema SciLaunch** | Motor de inteligência científica, análise de redes de citação acadêmica via OpenAlex e PageRank de componentes. | `Python` `NetworkX` `OpenAlex API` `PyVis HTML` | [**Acessar**](https://github.com/EmmanuelNunes/Ecossistema-SciLaunch-V3) |
-| 🧠 **TAI-G: Teste em IA** | Instrumento psicométrico validado para mensurar letramento digital e competências em IA Generativa com sync no Google Forms. | `HTML5` `CSS3` `JavaScript` `Google Forms` `GitHub Pages` | [**Acessar**](https://github.com/EmmanuelNunes/Teste-de-Alfabetiza-o-em-IA-Generativa) |
-| 🎁 **Amigo Secreto** | Web App interativo para sorteio festivo de nomes com inserção inteligente em lote, validação de duplicatas e chuva de confetes. | `JavaScript ES6+` `Canvas Confetti` `HTML5/CSS3` | [**Acessar**](https://github.com/EmmanuelNunes/amigosecreto) |
-
-</div>
+| Seu interesse ou objetivo | Caminho recomendado | O que você encontra |
+|---|---|---|
+| **Engenharia Agêntica & Toolkit** | [EmmanuelNunes/vibe-coding-toolkit](https://github.com/EmmanuelNunes/vibe-coding-toolkit) | Metodologia completa, Superpowers, Reversa SDD, Mira D3.js, prompts e templates. |
+| **Cientometria & Grafos Complexos** | [EmmanuelNunes/Ecossistema-SciLaunch-V3](https://github.com/EmmanuelNunes/Ecossistema-SciLaunch-V3) | Plataforma de inteligência acadêmica com OpenAlex, PageRank e Career-AI. |
+| **Processamento de Áudio & Voz** | [EmmanuelNunes/fastwhisper-web-studio](https://github.com/EmmanuelNunes/fastwhisper-web-studio) | Transcrição e diarização acelerada com CTranslate2, Gradio e 18 testes automatizados. |
+| **Educação & Workshops de IA** | [EmmanuelNunes/SECOMP---IA](https://github.com/EmmanuelNunes/SECOMP---IA) | Apresentações animadas Mira D3.js e referências acadêmicas (Sandeco e Gulo). |
+| **Instrumentos Psicométricos** | [EmmanuelNunes/Teste-de-Alfabetiza-o-em-IA-Generativa](https://github.com/EmmanuelNunes/Teste-de-Alfabetiza-o-em-IA-Generativa) | Teste psicométrico TAI-G calibrado e publicado no GitHub Pages com integração Forms. |
+| **Ecossistema Modular de Plugins** | [EmmanuelNunes/deepseek-harness-custom](https://github.com/EmmanuelNunes/deepseek-harness-custom) | Harness de agentes baseado em Cordis onde tudo é um plugin extensível. |
+| **Aplicações Web Interativas** | [EmmanuelNunes/amigosecreto](https://github.com/EmmanuelNunes/amigosecreto) | Web app de sorteio seguro com inserção em lote, confetti e zero duplicatas. |
 
 ---
 
-## 🛠️ Tecnologias & Habilidades
+<a id="ecosystem"></a>
+## 01 / Ecossistema de projetos e produtos
 
-### **Linguagens & Ambientes**
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"/>
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/ecosystem-still.svg">
+  <img src="docs/assets/readme/ecosystem.svg" alt="Ecossistema de Projetos" width="1600" height="520">
+</picture>
+
+| Repositório | Domínio | Destaque Técnico | Link Direto |
+|---|---|---|---|
+| **vibe-coding-toolkit** | Orquestração & Agentes | Framework para orquestração multiagente, SDD e quality gates com 260 links validados. | [Ver Repositório →](https://github.com/EmmanuelNunes/vibe-coding-toolkit) |
+| **Ecossistema-SciLaunch-V3** | Ciência de Dados & Redes | Algoritmos de centralidade de rede, OpenAlex API e Career-AI interativo. | [Ver Repositório →](https://github.com/EmmanuelNunes/Ecossistema-SciLaunch-V3) |
+| **fastwhisper-web-studio** | Áudio & IA Local | Inferência ultrarrápida com CTranslate2, Gradio UI e 18 testes em Pytest. | [Ver Repositório →](https://github.com/EmmanuelNunes/fastwhisper-web-studio) |
+| **SECOMP---IA** | Educação & D3.js | Slides dinâmicos com coreografia perpétua e fundamentação teórica de ponta. | [Ver Repositório →](https://github.com/EmmanuelNunes/SECOMP---IA) |
+| **Teste-de-Alfabetiza-o-em-IA-Generativa** | Psicométrica & Avaliação | Escala de prontidão em IA Generativa com validação estatística e deploy web. | [Ver Repositório →](https://github.com/EmmanuelNunes/Teste-de-Alfabetiza-o-em-IA-Generativa) |
+| **deepseek-harness-custom** | Plataforma de Agentes | Arquitetura de plugins reativos Cordis com harness configurável. | [Ver Repositório →](https://github.com/EmmanuelNunes/deepseek-harness-custom) |
+| **amigosecreto** | Frontend & UX | Algoritmo estrito de desarranjo sem ciclos fixos e efeitos canvas-confetti. | [Ver Repositório →](https://github.com/EmmanuelNunes/amigosecreto) |
+
+---
+
+<a id="agentic"></a>
+## 02 / Engenharia agêntica e orquestração
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/orchestration-still.svg">
+  <img src="docs/assets/readme/orchestration.svg" alt="Engenharia Agêntica e Orquestração" width="1600" height="520">
+</picture>
+
+Minha abordagem de engenharia de software com agentes de IA supera o paradigma do "chat interativo" comum e adota uma **metodologia orquestrada de alto rendimento**:
+
+1. **Reversa SDD (Spec-Driven Development):** Antes de qualquer linha de código, o sistema gera especificações formais com contratos de tipos, critérios de aceite e mapeamento de dependências.
+2. **Isolamento de Contexto & Skills Dinâmicas:** Utilização do perfil de skills `clean` gerenciado por scripts para manter a janela de contexto limpa e concentrada, economizando até 70% dos tokens úteis.
+3. **Despacho em Ondas Paralelas:** Tarefas independentes são distribuídas para subagentes focados que operam sem estado compartilhado, consolidando resultados no coordenador central.
+4. **Inspeção Estrita com REA:** Capacidade de engenharia reversa nativa, web e binária para entender profundamente sistemas legados antes de modificá-los.
+
+---
+
+<a id="science"></a>
+## 03 / Pesquisa científica e produção acadêmica
+
+A pesquisa científica é um dos pilares do meu trabalho. No **SciLaunch V3**, aplico modelos de grafos complexos para mapear colaborações científicas globais, calcular centralidade via PageRank e componentes fortemente conexos em tempo real a partir de dados abertos da API do OpenAlex.
+
+No **TAI-G**, aplico fundamentos de psicometria e avaliação educacional para medir a prontidão e competência do público na transição para tecnologias generativas, fornecendo devolutivas imediatas e tabulação segura de evidências.
+
+---
+
+<a id="quality"></a>
+## 04 / Qualidade, testes e verificação
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/quality-still.svg">
+  <img src="docs/assets/readme/quality.svg" alt="Padrões de Qualidade e Verificação" width="1600" height="520">
+</picture>
+
+- **Contratos Formais:** Nenhuma suposição não testada entra na branch principal.
+- **Teto Cognitivo de 350 Linhas:** Nenhum arquivo de código ultrapassa o limite cognitivo estrito, garantindo legibilidade e manutenção simplificada.
+- **Auditoria Cruzada Antigravity + Claude Code + Codex:** O código crítico é revisado e desafiado por múltiplos modelos antes da integração.
+- **Suítes Automatizadas:** Testes executados diretamente no terminal antes de qualquer commit ou publicação.
+
+---
+
+<a id="stack"></a>
+## 05 / Stack técnica e domínios
+
+| Área | Tecnologias Principais |
+|---|---|
+| **Linguagens & Runtimes** | Python 3.10+, TypeScript, JavaScript (Node.js ES Modules), Shell / PowerShell |
+| **Inteligência Artificial & Áudio** | Antigravity, Claude Code, Codex, CTranslate2, faster-whisper, PyTorch |
+| **Grafos & Ciência de Dados** | NetworkX, Pandas, NumPy, OpenAlex API, Algoritmos de Grafos (PageRank, Componentes) |
+| **Frontend & Apresentações** | D3.js (coreografia e física), HTML5 Canvas, Streamlit, Gradio, Tailwind CSS |
+| **Qualidade & Ferramentas** | Pytest, Node Test Runner, Git, GitHub Actions, DevTools, REA Engine |
+
+---
+
+<a id="profile-structure"></a>
+## 06 / Estrutura do perfil e validação
+
+```text
+EmmanuelNunes/
+├── assets/
+│   └── profile_banner.svg
+├── docs/
+│   └── assets/
+│       └── readme/
+│           ├── hero.svg + hero-still.svg
+│           ├── ecosystem.svg + ecosystem-still.svg
+│           ├── orchestration.svg + orchestration-still.svg
+│           └── quality.svg + quality-still.svg
+├── scripts/
+│   └── validate-docs.mjs
+├── AGENTS.md
+├── CLAUDE.md
+├── README.md
+├── README.en.md
+└── README.es.md
+```
+
+---
+
+<a id="connect"></a>
+## 07 / Conecte-se e acompanhe
+
+- **GitHub:** [github.com/EmmanuelNunes](https://github.com/EmmanuelNunes)
+- **Toolkit Principal:** [github.com/EmmanuelNunes/vibe-coding-toolkit](https://github.com/EmmanuelNunes/vibe-coding-toolkit)
+- **Contato & Parcerias:** Disponível via GitHub issues e discussões em repositórios abertos.
+
+<p align="center">
+  <br>
+  <strong>BUILD WITH INTENT. SHIP WITH FLOW.</strong>
+  <br><br>
+  <a href="#emmanuel-nunes">Voltar ao topo ↑</a>
 </p>
-
-### **Inteligência Artificial & Áudio**
-<p align="left">
-  <img src="https://img.shields.io/badge/faster--whisper-00A67E?style=for-the-badge&logo=openai&logoColor=white" alt="faster-whisper"/>
-  <img src="https://img.shields.io/badge/CTranslate2-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="CTranslate2"/>
-  <img src="https://img.shields.io/badge/Silero_VAD-FF6F00?style=for-the-badge&logo=audio&logoColor=white" alt="Silero VAD"/>
-  <img src="https://img.shields.io/badge/Edge--TTS-0078D7?style=for-the-badge&logo=microsoft-edge&logoColor=white" alt="Edge TTS"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-</p>
-
-### **Web, Frameworks & Ferramentas**
-<p align="left">
-  <img src="https://img.shields.io/badge/Gradio_6-FF7C00?style=for-the-badge&logo=gradio&logoColor=white" alt="Gradio"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest"/>
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg"/>
-</p>
-
----
-
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=EmmanuelNunes&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8&icon_color=818cf8" 
-    alt="Estatísticas do GitHub de Emmanuel Nunes" 
-    height="175"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmmanuelNunes&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=94a3b8" 
-    alt="Linguagens Mais Utilizadas" 
-    height="175"
-  />
-</div>
-
-<br/>
-
-<div align="center">
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com/?user=EmmanuelNunes&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=f472b6&currStreakLabel=38bdf8" 
-    alt="Sequência de Contribuições do GitHub" 
-  />
-</div>
-
----
-
-## 📬 Conecte-se Comigo
-
-<div align="center">
-
-  <a href="https://github.com/EmmanuelNunes" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-
-</div>
-
-<br/>
-
-<div align="center">
-  <sub>⭐ Obrigado por visitar meu perfil! Sinta-se à vontade para explorar os repositórios e se conectar.</sub>
-</div>

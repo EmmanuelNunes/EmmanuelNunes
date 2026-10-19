@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" width="1600" height="520">
+  <defs>
+    <linearGradient id="qualBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <pattern id="qualGrid" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#202c3c" opacity="0.4"/>
+    </pattern>
+    <style>
+      .font-mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace; }
+      .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif; }
+      
+    @keyframes checkPop {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+    .check-icon { animation: checkPop 4s ease-in-out infinite; transform-origin: center; }
+    @media (prefers-reduced-motion: reduce) {
+      .check-icon { animation: none !important; }
+    }
+  
+    </style>
+  </defs>
+
+  <rect width="1600" height="520" fill="url(#qualBg)"/>
+  <rect width="1600" height="520" fill="url(#qualGrid)"/>
+
+  <!-- Section Header -->
+  <g transform="translate(100, 60)">
+    <text x="0" y="0" class="font-mono" font-size="13" font-weight="700" fill="#94caa6" letter-spacing="2">04 / QUALITY BAR &amp; VERIFICATION</text>
+    <text x="0" y="32" class="font-sans" font-size="26" font-weight="800" fill="#ffffff">Da especificação formal à prova em execução.</text>
+    <text x="0" y="58" class="font-sans" font-size="15" fill="#8196ae">Nenhum código é considerado pronto sem testes automatizados, documentação sincronizada e prova factual.</text>
+  </g>
+
+  <!-- 3 Pillars of Quality -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="440" height="280" rx="10" fill="#0d141e" stroke="#2d4263" stroke-width="1.5"/>
+    <circle cx="40" cy="40" r="16" fill="#1b2838"/>
+    <text x="40" y="46" text-anchor="middle" class="font-mono" font-size="14" fill="#e7ba7d">01</text>
+    <text x="75" y="46" class="font-mono" font-size="12" font-weight="700" fill="#e7ba7d" letter-spacing="1">EVIDÊNCIA EM EXECUÇÃO</text>
+    <text x="24" y="95" class="font-sans" font-size="20" font-weight="800" fill="#ffffff">Testes &amp; Comprovação Factual</text>
+    <text x="24" y="125" class="font-sans" font-size="14" fill="#8fa5be">Suítes rigorosas de testes unitários e de integração (Pytest, Vitest, Node Test Runner). Sem afirmações vazias de sucesso.</text>
+    <line x1="24" y1="190" x2="416" y2="190" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="220" class="font-mono" font-size="12" fill="#94caa6">✓ 18 Testes no FastWhisper Studio</text>
+    <text x="24" y="245" class="font-mono" font-size="12" fill="#94caa6">✓ 260 Links Validados no Toolkit</text>
+  </g>
+
+  <g transform="translate(580, 160)">
+    <rect x="0" y="0" width="440" height="280" rx="10" fill="#0d141e" stroke="#2d4263" stroke-width="1.5"/>
+    <circle cx="40" cy="40" r="16" fill="#172b2b"/>
+    <text x="40" y="46" text-anchor="middle" class="font-mono" font-size="14" fill="#85c6bc">02</text>
+    <text x="75" y="46" class="font-mono" font-size="12" font-weight="700" fill="#85c6bc" letter-spacing="1">LIMITES ESTRUTURAIS</text>
+    <text x="24" y="95" class="font-sans" font-size="20" font-weight="800" fill="#ffffff">Teto de 350 Linhas &amp; Clean Profile</text>
+    <text x="24" y="125" class="font-sans" font-size="14" fill="#8fa5be">Prevenção ativa de arquivos monolíticos. Otimização drástica de contexto com perfil de skills 'clean' sob demanda.</text>
+    <line x1="24" y1="190" x2="416" y2="190" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="220" class="font-mono" font-size="12" fill="#85c6bc">✓ Arquivos enxutos e modulares</text>
+    <text x="24" y="245" class="font-mono" font-size="12" fill="#85c6bc">✓ Economia de até 70% de tokens</text>
+  </g>
+
+  <g transform="translate(1060, 160)">
+    <rect x="0" y="0" width="440" height="280" rx="10" fill="#0d141e" stroke="#2d4263" stroke-width="1.5"/>
+    <circle cx="40" cy="40" r="16" fill="#281e35"/>
+    <text x="40" y="46" text-anchor="middle" class="font-mono" font-size="14" fill="#bba6ce">03</text>
+    <text x="75" y="46" class="font-mono" font-size="12" font-weight="700" fill="#bba6ce" letter-spacing="1">AUDITORIA CRUZADA</text>
+    <text x="24" y="95" class="font-sans" font-size="20" font-weight="800" fill="#ffffff">Consenso Entre Múltiplos Modelos</text>
+    <text x="24" y="125" class="font-sans" font-size="14" fill="#8fa5be">Revisão adversarial entre agentes com diferentes pontos fortes: Antigravity (Google DeepMind), Claude Code e Codex.</text>
+    <line x1="24" y1="190" x2="416" y2="190" stroke="#1d2737" stroke-width="1"/>
+    <text x="24" y="220" class="font-mono" font-size="12" fill="#bba6ce">✓ Verificação de segurança estrita</text>
+    <text x="24" y="245" class="font-mono" font-size="12" fill="#bba6ce">✓ Integridade de regras de negócio</text>
+  </g>
+</svg>
